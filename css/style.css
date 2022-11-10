@@ -43,3 +43,7 @@
     right: 1em;
     bottom: 1em;
 }
+
+#main .mzero-chat {
+    margin-left: calc((100% - var(--mzc-width))/2);
+}
