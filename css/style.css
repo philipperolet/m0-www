@@ -45,5 +45,6 @@
 }
 
 #main .mzero-chat {
-    margin-left: calc((100% - var(--mzc-width))/2);
+    width: min(100%, var(--mzc-width));
+    margin-left: calc((100% - min(100%, var(--mzc-width)))/2);
 }
