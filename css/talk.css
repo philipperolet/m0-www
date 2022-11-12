@@ -1,0 +1,28 @@
+@media screen and (max-width: 500px) {
+    body .container, .container .btn {
+	font-size: 0.8rem;
+    }
+    
+    #main h1 {
+	font-size: 1.8em;
+    }
+    #main .subtitle, #main .description {
+	font-size: 1em;
+    }
+    #main .description {
+	font-size: 0.7em;
+	text-align: left;
+	line-height: 1;
+    }
+    #main span+hr {
+	margin-bottom:0;
+	margin-top:0;
+    }
+    #main .mzero-chat {
+	height: 38em;
+    }
+    #main .mzero-chat .messages {
+	height: 35em;
+    }
+
+}
