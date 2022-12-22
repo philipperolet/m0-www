@@ -49,3 +49,17 @@
     width: min(100%, var(--mzc-width));
     margin-left: calc((100% - min(100%, var(--mzc-width)))/2);
 }
+
+/** WP21 page **/
+div.wp21-img {
+    text-align: center;
+    width: 100%;
+}
+
+img.wp21 {
+    width: 33%;
+}    
+
+h3#wp21-subtitle {
+    padding-top: 0;
+}
